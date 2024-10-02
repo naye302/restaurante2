@@ -1,0 +1,120 @@
+.titulo1{
+    color: black;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 10;
+    padding: 10;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #4eca90;
+  }
+  
+  header {
+    background-color: #32a5e7;
+    color: #db3434;
+    padding: 20px;
+    text-align: none;
+  }
+  
+  header h1 {
+    margin: 0;
+  }
+  
+  section {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  section ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  section li {
+    padding: 10px 0;
+    border-bottom: 1px solid #ff0101;
+  }
+  
+  section li:nth-child(2) {
+    border-top: 1px solid #ee0000;
+  }
+  
+  footer {
+    background-color: #52c0ff;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  footer p {
+    margin: 0;
+  }
+
+  nav {
+    background-color: #308cf7;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  nav li {
+    margin: 0 10px;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  nav a:hover {
+    text-decoration: underline;
+  }
+  
+  section {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    display: none;
+  }
+  
+  section[id="menu"], section[id="reserva"] {
+    display: block; 
+  }
+  
+  nav a.active {
+    font-weight: bold;
+    text-decoration: underline;
+  }
+  
+  ul ul {
+    display: none;
+  }
+  
+  ul ul.active {
+    display: block;
+  }
+  
+  ul li:hover > ul {
+    display: block;
+  }
+
+  body{
+    background-image: url('/static/imag/fondo1.jpg');
+    background-repeat: no-repeat;
+   background-size: 100%;
+  }
